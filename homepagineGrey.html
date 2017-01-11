@@ -31,12 +31,12 @@
   }
   
   .homepagina li, .opleidingen li, .praktisch li, .contact li, .inschrijven li {
-    text-decoration: none;
+   
     list-style-type: none;
     margin: 0 0 .50em 0;
   }
   .homepagina a, .opleidingen a, .praktisch a, .contact a, .inschrijven a{
-    text-decoration: none;
+    
     color: #fff;
   }
 .homepagina {
@@ -45,8 +45,7 @@
   padding-right: 20px;
   padding-left: 10px;
   margin-top: 10px;
-  box-sizing: border-box;
-  
+  box-sizing: border-box; 
 }
   
 .opleidingen {
@@ -85,8 +84,10 @@
   box-sizing: border-box;
 }
 
-  
-
+  .homepagina a:hover, .opleidingen a:hover, .praktisch a:hover, .contact a:hover, .inschrijven a:hover {
+    color: #85c225;
+    
+  }
 .clearfix:after {
   content: " ";
   display: block;
@@ -96,7 +97,10 @@
   height: 0;
 }
   
-
+  footer nav {
+    float: right;
+    margin: 2em 0 0 1em;
+  }
 footer nav a{
    display: inline-block;
   width: 32px;
@@ -111,7 +115,6 @@ footer nav li{
   display: inline-block;
   height:32px;
   width:32px;
-  border: 2px solid black;
 }
 
 
@@ -134,14 +137,7 @@ footer nav li{
   background-position: -32px 32px;
 }
 
-.Twitter {
-  background-position: -192px 0px;
-}
 
-.Twitter:hover {
-  background-position: -192px 32px;
-}
-  
 </style>
  
   <body>
@@ -220,9 +216,7 @@ footer nav li{
   <li> 
     <a class="Pinterest" href="https://nl.pinterest.com/">Bezoek ons op Pinterest</a>
   </li>
-  <li>
-    <a class="Twitter" href="https://twitter.com/">Volg de tweets van onze panda's</a>
-  </li>
+
 </ul>
 </nav>
    
