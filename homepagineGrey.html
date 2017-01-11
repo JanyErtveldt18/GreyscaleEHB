@@ -10,21 +10,76 @@
   body {
     margin: 0;
     font-family: "Tahoma";
-    font-size: 16px;
   }
+  
+  
+   main nav {
+      color: #fff;
+    }
+    
+  main nav li {
+      list-style-type: none;
+      float: left;
+      position: relative;
+      background-color: #7fc347;
+      width: 20%;
+    }
+    
+   main nav ul {
+      margin: 0;
+      padding: 0;
+      line-height: 30px;
+      background-color: #7fc347;
+    }
+    
+   main nav a {
+      color: #fff;
+      text-decoration: none;
+      line-height: 38px;
+      width:100%;
+      height: 40px;
+      display: block;
+      text-align: center; 
+    }
+    
+   main nav ul ul {
+      position: absolute;
+      display: none;
+      background-color: #7fc347;
+    }
+    
+   main nav ul li:hover ul {
+      display: block;
+    }
+   main nav ul li ul li{
+      width: 100%;
+    }
+    
+   main  nav li:hover {
+      background-color: #afe377;
+    }
+  
+  .content {
+    height: 800px;
+  }
+  
+  
   
   .greenup {
     background-color: #85c225;
     height: 2em;
-    width: 100%;
+    text-indent: -9999px;
   }
-  .greenup img {
-    width: 3%;
-    height: 130%;
-    margin: -.4em 50%;
+  .greenup {
+    background-image: url(sprite/pijl.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    
   }
   
-  .clearfix {
+  .clearfix {width:100%;
     background-color: #605d5c;
   }
   
@@ -33,7 +88,6 @@
   }
   
   .homepagina li, .opleidingen li, .praktisch li, .contact li, .inschrijven li {
-   
     list-style-type: none;
     margin: 0 0 .50em 0;
   }
@@ -44,39 +98,11 @@
   footer strong {
     font-size: 1.25em;
   }
-.homepagina {
+.homepagina, .opleidingen, .praktisch, .contact, .inschrijven {
   float: left;
   width: 20%;
   margin-top: 10px;
   box-sizing: border-box; 
-}
-  
-.opleidingen {
-  float: left;
-  width: 20%;
-  margin-top: 10px;
-  box-sizing: border-box;
-}
-
-.praktisch {
-  float: left;
-  width: 20%;
-  margin-top: 10px;
-  box-sizing: border-box;
-}
-
-  .contact {
-  float: left;
-  width: 20%;
-  margin-top: 10px;
-  box-sizing: border-box;
-}
-  
-  .inschrijven {
-  float: left;
-  width: 20%;
-  margin-top: 10px;
-  box-sizing: border-box;
 }
 
   .homepagina a:hover, .opleidingen a:hover, .praktisch a:hover, .contact a:hover, .inschrijven a:hover {
@@ -112,7 +138,6 @@ footer nav li{
   width:32px;
 }
 
-
 .Facebook {
   background-position: 0px 0px;
   width: 64px 64px;
@@ -122,7 +147,6 @@ footer nav li{
   background-position: 0px 32px;
   width: 64px 64px;
 }
-
 
 .Pinterest {
   background-position: -32px 0px;
@@ -136,9 +160,30 @@ footer nav li{
 </style>
  
   <body>
-    <div class="greenup">
-     <img src="sprite/pijl.png" >
-    </div>
+   <main id="boven">
+    <nav>
+    <ul>
+      <li><a href="#">Home</a> </li>
+      <li><a href="#">Opleidingen</a>
+        <ul class="submenu">
+          <li><a href="#">schilderdecorateur</a> </li>
+          <li><a href="#">Tuinbouwarbeider</a> </li>
+          <li><a href="#">Grootkeuken-medewerker</a> </li>
+          <li><a href="#">Hoeklasser</a> </li>
+          <li><a href="#">Logistiek assistent</a> </li>
+        </ul>
+      </li>
+      <li><a href="#">Praktisch</a></li>
+      <li><a href="#">Inschrijvingen</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+    </main> 
+   
+   <div class="content">fhezjisqhfihvezish</div>
+   
+   
+    <a href="#boven"><div class="greenup">Terug naar boven</div></a>
       <footer>
           <section class="clearfix">
 
