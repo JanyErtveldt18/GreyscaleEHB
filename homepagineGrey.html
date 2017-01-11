@@ -13,13 +13,15 @@
     font-size: 16px;
   }
   
-  .green {
+  .greenup {
     background-color: #85c225;
     height: 2em;
+    width: 100%;
   }
-  
-  .footer {
-    background-color: #605d5c;
+  .greenup img {
+    width: 3%;
+    height: 130%;
+    margin: -.4em 50%;
   }
   
   .clearfix {
@@ -39,11 +41,12 @@
     
     color: #fff;
   }
+  footer strong {
+    font-size: 1.25em;
+  }
 .homepagina {
   float: left;
   width: 20%;
-  padding-right: 20px;
-  padding-left: 10px;
   margin-top: 10px;
   box-sizing: border-box; 
 }
@@ -51,8 +54,6 @@
 .opleidingen {
   float: left;
   width: 20%;
-  padding-right: 20px;
-  padding-left: 10px;
   margin-top: 10px;
   box-sizing: border-box;
 }
@@ -60,8 +61,6 @@
 .praktisch {
   float: left;
   width: 20%;
-  padding-right: 20px;
-  padding-left: 10px;
   margin-top: 10px;
   box-sizing: border-box;
 }
@@ -69,8 +68,6 @@
   .contact {
   float: left;
   width: 20%;
-  padding-right: 20px;
-  padding-left: 10px;
   margin-top: 10px;
   box-sizing: border-box;
 }
@@ -78,15 +75,12 @@
   .inschrijven {
   float: left;
   width: 20%;
-  padding-right: 20px;
-  padding-left: 10px;
   margin-top: 10px;
   box-sizing: border-box;
 }
 
   .homepagina a:hover, .opleidingen a:hover, .praktisch a:hover, .contact a:hover, .inschrijven a:hover {
     color: #85c225;
-    
   }
 .clearfix:after {
   content: " ";
@@ -99,13 +93,14 @@
   
   footer nav {
     float: right;
-    margin: 2em 0 0 1em;
+    padding-right: 10px;
+    margin-top: 4em;
   }
 footer nav a{
    display: inline-block;
   width: 32px;
   height: 32px;
-  background: url(sprite/social.png);
+  background: url(sprite/social%20face%20mail.png);
   text-indent: -9999px;
   background-size: 352px 64px;
 }
@@ -141,8 +136,9 @@ footer nav li{
 </style>
  
   <body>
-      
-      <div class="green">Hier komt de image van het pijltje in het midden</div>
+    <div class="greenup">
+     <img src="sprite/pijl.png" >
+    </div>
       <footer>
           <section class="clearfix">
 
@@ -211,10 +207,10 @@ footer nav li{
 
 <ul>
   <li>
-    <a class="Facebook" href="https://www.facebook.com/">Volg ons op facebook</a>
+    <a class="Facebook" href="https://www.facebook.com/devest.vilvoorde?fref=ts">Volg ons op facebook</a>
   </li>
   <li> 
-    <a class="Pinterest" href="https://nl.pinterest.com/">Bezoek ons op Pinterest</a>
+    <a class="Pinterest" href="mailto:secretariaat.devest@sovilvoorde.be">Bezoek ons op Pinterest</a>
   </li>
 
 </ul>
