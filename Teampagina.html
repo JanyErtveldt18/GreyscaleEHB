@@ -12,9 +12,12 @@
       font-family: "Tahoma", sans-serif;
     }
     
-    body{
+    body {
       background-image: url(images/vlinder.png);
       background-repeat: repeat;
+      margin: 0;
+      font-family: "Tahoma";
+      font-size: 16px;
     }
     
     .hoofdnav {
@@ -84,9 +87,9 @@
       position: relative;
       background-color: #CDE6A8;
       padding-left: 1em;
-      padding-right:1em;
-      padding-bottom:1em;
-      padding-top:1em;
+      padding-right: 1em;
+      padding-bottom: 1em;
+      padding-top: 1em;
     }
     
     .nav2 ul {
@@ -96,7 +99,7 @@
       text-align: center;
     }
     
-    .nav2 a{
+    .nav2 a {
       text-decoration: none;
       color: black;
       width: 100%;
@@ -104,95 +107,356 @@
       padding-bottom: 20px;
     }
     
-    .nav2 li:hover{
-      background-color:#7fc347;
+    .nav2 li:hover {
+      background-color: #7fc347;
     }
     
-    h3{
+    h3 {
       background-color: #bce471;
       padding-left: 5%;
       padding-bottom: 0.2em;
       padding-top: 0.2em;
     }
     
-    img{
+    img {
       width: 100%;
       margin: 0;
     }
-    table{
-      width:100%;
-    }
-    table img{
-      width:30%;
+    
+    table {
+      width: 100%;
     }
     
+    table img {
+      width: 25%;
+    }
+    
+    .greenup {
+      background-color: #85c225;
+      height: 2em;
+      width: 100%;
+    }
+    
+    .greenup img {
+      width: 3%;
+      height: 130%;
+      margin: -.4em 50%;
+    }
+    
+    .clearfix {
+      background-color: #605d5c;
+    }
+    
+    .homepagina ul,
+    .opleidingen ul,
+    .praktisch ul,
+    .contact ul {
+      border-right: 4px solid #fff;
+    }
+    
+    .homepagina li,
+    .opleidingen li,
+    .praktisch li,
+    .contact li,
+    .inschrijven li {
+      list-style-type: none;
+      margin: 0 0 .50em 0;
+    }
+    
+    .homepagina a,
+    .opleidingen a,
+    .praktisch a,
+    .contact a,
+    .inschrijven a {
+      color: #fff;
+    }
+    
+    footer strong {
+      font-size: 1.25em;
+    }
+    
+    .homepagina {
+      float: left;
+      width: 20%;
+      margin-top: 10px;
+      box-sizing: border-box;
+    }
+    
+    .opleidingen {
+      float: left;
+      width: 20%;
+      margin-top: 10px;
+      box-sizing: border-box;
+    }
+    
+    .praktisch {
+      float: left;
+      width: 20%;
+      margin-top: 10px;
+      box-sizing: border-box;
+    }
+    
+    .contact {
+      float: left;
+      width: 20%;
+      margin-top: 10px;
+      box-sizing: border-box;
+    }
+    
+    .inschrijven {
+      float: left;
+      width: 20%;
+      margin-top: 10px;
+      box-sizing: border-box;
+    }
+    
+    .homepagina a:hover,
+    .opleidingen a:hover,
+    .praktisch a:hover,
+    .contact a:hover,
+    .inschrijven a:hover {
+      color: #85c225;
+    }
+    
+    .clearfix:after {
+      content: " ";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0;
+    }
+    
+    footer nav {
+      float: right;
+      padding-right: 10px;
+      margin-top: 4em;
+    }
+    
+    footer nav a {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      background: url(sprite/social%20face%20mail.png);
+      text-indent: -9999px;
+      background-size: 352px 64px;
+    }
+    
+    footer nav li {
+      list-style: none;
+      display: inline-block;
+      height: 32px;
+      width: 32px;
+    }
+    
+    .Facebook {
+      background-position: 0px 0px;
+      width: 64px 64px;
+    }
+    
+    .Facebook:hover {
+      background-position: 0px 32px;
+      width: 64px 64px;
+    }
+    
+    .Pinterest {
+      background-position: -32px 0px;
+    }
+    
+    .Pinterest:hover {
+      background-position: -32px 32px;
+    }
   </style>
 </head>
 
 <body>
- <div class ="vlinder">
-  <header>
-    <nav class="hoofdnav">
-      <ul>
-        <li><a href="#">Home</a> </li>
-        <li><a href="#">Opleidingen</a>
-          <ul class="submenu">
-            <li><a href="#">schilderdecorateur</a> </li>
-            <li><a href="#">Tuinbouwarbeider</a> </li>
-            <li><a href="#">Grootkeuken-medewerker</a> </li>
-            <li><a href="#">Hoeklasser</a> </li>
-            <li><a href="#">Logistiek assistent</a> </li>
-          </ul>
-          <li><a href="#">Praktisch</a></li>
-          <li><a href="#">Inschrijvingen</a></li>
-          <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-   <img src = "images/Personeel/DSC_0065%20rode%20neuzen.JPG">
-    <h1>Ons team</h1>
-    
-    <nav class="nav2">
-      <ul>
-        <li><a href="#">Directie</a></li>
-        <li><a href="#">Ondersteunend team</a></li>
-        <li><a href="#">Onderhoudsteam</a></li>
-        <li><a href="#">Sodi-team</a></li>
-        <li><a href="#">Onderwijsteam</a></li>
-        <li><a href="#">Personeel</a></li>
+  <div class="vlinder">
+    <header>
+      <nav class="hoofdnav">
+        <ul>
+          <li><a href="#">Home</a> </li>
+          <li><a href="#">Opleidingen</a>
+            <ul class="submenu">
+              <li><a href="#">schilderdecorateur</a> </li>
+              <li><a href="#">Tuinbouwarbeider</a> </li>
+              <li><a href="#">Grootkeuken-medewerker</a> </li>
+              <li><a href="#">Hoeklasser</a> </li>
+              <li><a href="#">Logistiek assistent</a> </li>
+            </ul>
+            <li><a href="#">Praktisch</a></li>
+            <li><a href="#">Inschrijvingen</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="images/Personeel/DSC_0065%20rode%20neuzen.JPG">
+      <h1>Ons team</h1>
 
-      </ul>
-    </nav>
-    
-    <h3>Directie</h3>
-    
-    <table>
-     <tr>
-       <th>Vervloessem Goedele</th>
-       <th>Lacroix Freddy</th>
-     </tr>
-      <tr>
-        <th>Directeur</th>
-        <th>TAC</th>
-      </tr>
-      <tr>
-        <th><img src = "images/Personeel/Vervloessem%20Goedele.jpg"</th>
-      <th><img src ="images/Personeel/Lacroix%20Freddy.jpg"</th>
-        </th>
-    </table>
-    
-    <h3>Ondersteunend team</h3>
-    <h3>Onderhoudsteam</h3>
-    <h3>Sodi-team</h3>
-    <h3>Onderwijsteam</h3>
-    <h3>Personeel</h3>
-  </main>
+      <nav class="nav2">
+        <ul>
+          <li><a href="#">Directie</a></li>
+          <li><a href="#">Ondersteunend team</a></li>
+          <li><a href="#">Onderhoudsteam</a></li>
+          <li><a href="#">Sodi-team</a></li>
+          <li><a href="#">Onderwijsteam</a></li>
+          <li><a href="#">Personeel</a></li>
 
-  <footer>
+        </ul>
+      </nav>
 
-  </footer>
-  </div>
+      <h3>Directie</h3>
+
+      <table>
+        <tr>
+          <th>Vervloessem Goedele</th>
+          <th>Lacroix Freddy</th>
+        </tr>
+        <tr>
+          <th>Directeur</th>
+          <th>TAC</th>
+        </tr>
+        <tr>
+          <th><img src="images/Personeel/Vervloessem%20Goedele.jpg"> </th>
+          <th><img src="images/Personeel/Lacroix%20Freddy.jpg"> </th>
+          </th>
+      </table>
+
+      <h3>Ondersteunend team</h3>
+
+      <table>
+        <tr>
+          <th>Heiskens Dirk</th>
+          <th>Moucheron Michel</th>
+        </tr>
+        <tr>
+          <th><img src="images/Personeel/Helskens%20Dirk.jpg"> </th>
+          <th><img src="images/Personeel/Moucheron%20Michel.jpg"> </th>
+          </th>
+      </table>
+
+      <h3>Sociale dischipline-team (SODI)</h3>
+
+      <table>
+        <tr>
+          <th>Meert Yennik</th>
+          <th>Van den Brande Els</th>
+        </tr>
+        <tr>
+          <th>Orhopedagoge &amp; waarborgcoach</th>
+          <th>Sociaal medewerkster</th>
+        </tr>
+        <tr>
+          <th><img src="images/Personeel/Meert%20Yennik.jpg"> </th>
+          <th><img src="images/Personeel/Van%20den%20Brande%20Els.jpg"> </th>
+        </tr>
+        <tr>
+          <th>Van den Bossche Thérèse</th>
+        </tr>
+        <tr>
+          <th>Logopediste &amp; GOK-coördinator</th>
+        </tr>
+        <tr>
+          <th><img src="images/Personeel/Van%20den%20Bossche%20Th%C3%A9r%C3%A8se.jpg"> </th>
+        </tr>
+      </table>
+
+      <h3>Onderwijsteam</h3>
+
+      <table>
+        <tr>
+          <th>Barbez Dimitri</th>
+          <th>Bauters Hans</th>
+        </tr>
+        <tr>
+          <th>Waarborgcoach &amp; GOK &amp; ICT-coördinator</th>
+          <th>Leraar ASV</th>
+        </tr>
+        <tr>
+          <th><img src="images/Personeel/Barbez%20Dimitri.jpg"> </th>
+          <th><img src="images/Personeel/Bauters%20Hans.jpg"> </th>
+        </tr>
+        <tr>
+          <th>Carleer Marijke</th>
+          <th>Cooremans Mario</th>
+        </tr>
+        <tr>
+          <th>Leraar ASV &amp; Waarborgcoach</th>
+          <th>Leraar BGV gkm</th>
+        </tr>
+        <tr>
+          <th><img src="images/Personeel/Carleer%20Marijke.jpg"> </th>
+          <th><img src="images/Personeel/Cooremans%20Mario.jpg"> </th>
+        </tr>
+        <tr>
+          <th>De Jonghe Gunther</th>
+        </tr>
+        <tr>
+          <th>Leraar BGV sd</th>
+        </tr>
+        <tr>
+          <th><img src="images/Personeel/De%20Jonghe%20Gunther.jpg"> </th>
+        </tr>
+
+
+      </table>
+
+      <h3>Personeel de VeSt</h3>
+
+      <table>
+        <tr>
+          <th>Dooms Christophe</th>
+          <th>El Makrini Mariem</th>
+          <th>Goeman Jelleken</th>
+        </tr>
+        <tr>
+          <th>Leraar BGV ta</th>
+          <th>Leraar LBV isl</th>
+          <th>Leraar BGV ta</th>
+        </tr>
+        <tr>
+          <th><img src="images/Personeel/Dooms%20Christophe.jpg"> </th>
+          <th><img src="images/Personeel/nophoto.png"> </th>
+          <th><img src="images/Personeel/nophoto.png"> </th>
+        </tr>
+        <tr>
+          <th>Hamel Anne</th>
+          <th>Hellemans Ilse</th>
+          <th>Janssens Clarisse</th>
+        </tr>
+        <tr>
+          <th>Leraar BGV la</th>
+          <th>Leraar ASV &amp; GOK </th>
+          <th>Leraar LBV rkg</th>
+        </tr>
+        <tr>
+          <th><img src="images/Personeel/Hamel%20Anne.jpg"> </th>
+          <th><img src="images/Personeel/Hellemans%20Ilse.jpg"> </th>
+          <th><img src="images/Personeel/nophoto.png"> </th>
+        </tr>
+        <tr>
+          <th>Lanckmans Annick</th>
+          <th>Lesenne Marielle</th>
+          <th>Limbourg Sonja</th>
+        </tr>
+        <tr>
+          <th>Leraar BGV gkm</th>
+          <th>Leraar ASV ict</th>
+          <th>Leraar BGV la</th>
+        </tr>
+        <tr>
+          <th><img src="images/Personeel/Lanckmans%20Annick.jpg"> </th>
+          <th><img src="images/Personeel/nophoto.png"> </th>
+          <th><img src="images/Personeel/Limbourg%20Sonja.jpg"> </th>
+        </tr>
+      </table>
+
+
+      <h3>Personeel</h3>
+    </main>
+
+
+
 </body>
 
 
