@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Header</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Tahoma", sans-serif;
+    }
+    
+    header .logo{
+      float: left;
+      width: 20%;
+      margin-top: -4%;
+      margin-bottom: 3.52%;
+     
+    }
+    
+    header .banner{
+      float: right;
+      width: 70%;
+      height: 50%;
+      max-height: 300px;
+    }
+    
+    nav {
+      color: #fff;
+    }
+    
+    nav li {
+      list-style-type: none;
+      float: left;
+      position: relative;
+      background-color: #7fc347;
+      width: 20%;
+    }
+    
+    nav ul {
+      margin: 0;
+      padding: 0;
+      line-height: 30px;
+      background-color: #7fc347;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      line-height: 38px;
+      width:100%;
+      height: 40px;
+      display: block;
+      text-align: center;
+      border-bottom: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #fff;
+      
+    }
+    
+    nav ul ul {
+      position: absolute;
+      display: none;
+      background-color: #7fc347;
+    }
+    
+    nav ul li:hover ul {
+      display: block;
+    }
+    nav ul li ul li{
+      width: 100%;
+    }
+    
+    nav li:hover {
+      background-color: #afe377;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" alt="logo DeVest" src="images/Officieel%20logo.png"> <div class="Rbanner"><img class="banner" alt="header school" src="images/header/header_school.jpg"></div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a> </li>
+      <li><a href="#">Opleidingen</a>
+        <ul class="submenu">
+          <li><a href="#">schilderdecorateur</a> </li>
+          <li><a href="#">Tuinbouwarbeider</a> </li>
+          <li><a href="#">Grootkeuken-medewerker</a> </li>
+          <li><a href="#">Hoeklasser</a> </li>
+          <li><a href="#">Logistiek assistent</a> </li>
+        </ul>
+      </li>
+      <li><a href="#">Praktisch</a></li>
+      <li><a href="#">Inschrijvingen</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
