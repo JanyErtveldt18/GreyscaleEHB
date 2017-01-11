@@ -60,10 +60,18 @@
     }
   
   .content {
-    height: 800px;
+    height: 400px;
+    background-image: url(images/Tuinschool.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
-  
+  .zwartvierkant {
+    background-color: black;
+    width: 350px;
+    height: 100%;
+    opacity: .2;
+  }
   
   .greenup {
     background-color: #85c225;
@@ -173,14 +181,31 @@ footer nav li{
           <li><a href="#">Logistiek assistent</a> </li>
         </ul>
       </li>
-      <li><a href="#">Praktisch</a></li>
-      <li><a href="#">Inschrijvingen</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#">Praktisch</a>
+        <ul class="submenu">
+          <li><a href="#">Team</a> </li>
+          <li><a href="#">Visie</a> </li>
+          <li><a href="#">Schoolbrochure</a> </li>
+          <li><a href="#">Afspraken</a> </li>
+          <li><a href="#">Waarborg</a></li>
+        </ul>  
+      </li>
+      <li><a href="#">Contact</a>
+        <ul class="submenu">
+          <li><a href="#">Bereikbaarheid</a> </li>
+          <li><a href="#">Vragenformulier</a> </li>
+        </ul>
+      </li>
+      <li><a href="#">Inschrijvingen</a>
+      <ul class="submenu">
+          <li><a href="#">Formulier</a></li>
+        </ul>
+      </li>
     </ul>
   </nav>
     </main> 
    
-   <div class="content">fhezjisqhfihvezish</div>
+   <section class="content"><div class="zwartvierkant">zwartvlak</div></section>
    
    
     <a href="#boven"><div class="greenup">Terug naar boven</div></a>
