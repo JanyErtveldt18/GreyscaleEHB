@@ -12,7 +12,6 @@
     font-family: "Tahoma";
   }
   
-  
    main nav {
       color: #fff;
     }
@@ -55,24 +54,76 @@
       width: 100%;
     }
     
-   main  nav li:hover {
+   main nav li:hover {
       background-color: #afe377;
     }
   
-  .content {
-    height: 400px;
-    background-image: url(images/Tuinschool.JPG);
-    background-size: cover;
+  .banner {
+    height: 370px;
+    background-image: url(images/Bannerschool.png);
+    background-size: contain;
     background-repeat: no-repeat;
+    padding-top: 2.5em;
   }
   
   .zwartvierkant {
     background-color: black;
-    width: 350px;
+    width: 30%;
     height: 100%;
-    opacity: .2;
+    float: right;
+    margin-right: 3em;
   }
-  
+   .zwartvierkant p {
+    display: block;
+    color: #fff;
+    text-align: center;
+        
+    }
+
+    .content {
+        height: 1000px;
+        background-image: url(images/vlinderopacity%2010.png);
+    }
+ 
+        .navigatieopleidingen .kleur{
+      display: none;
+     width: 100%;
+    }
+     .navigatieopleidingen .black{
+      width: 100%;
+    }
+     .navigatieopleidingen li {
+      list-style-type: none;
+      display: inline-block;
+    }
+     .navigatieopleidingen ul li a {
+      color: black;
+      text-decoration: none;
+    }
+     .navigatieopleidingen ul li{
+      width: 20%;
+      float: left;
+      position: inherit;
+    }
+     .navigatieopleidingen ul li:after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+     .navigatieopleidingen ul li a:hover{
+      font-weight: bold;
+    }
+     .navigatieopleidingen ul li a:hover .black{
+    display: none;
+    }
+     .navigatieopleidingen ul li a:hover .kleur{
+      display: block;
+    }
+     .navigatieopleidingen ul li p{
+      position: relative;
+      text-align: center;
+    }
+    
   .greenup {
     background-color: #85c225;
     height: 2em;
@@ -156,11 +207,11 @@ footer nav li{
   width: 64px 64px;
 }
 
-.Pinterest {
+.mail {
   background-position: -32px 0px;
 }
 
-.Pinterest:hover {
+.mail:hover {
   background-position: -32px 32px;
 }
 
@@ -205,8 +256,33 @@ footer nav li{
   </nav>
     </main> 
    
-   <section class="content"><div class="zwartvierkant">zwartvlak</div></section>
+   <section class="banner">
+       <div class="zwartvierkant">
+           <p>Aangepast beroepsonderwijs de VeSt<br>Vestenstraat 14 <br>1800 Vilvoorde<br><strong>Tel:</strong>02/ 251 27 03<br><strong>Fax:</strong>02/ 251 94 29<br>secretariaat.devest@sovilvoorde.be</p>
+       </div>
+    </section>
    
+      <section class="content">
+        <main class="navigatieopleidingen">
+            <ul>
+      <li>
+        <a href="#"><img class="black hoeklasser"  src="images/HoeklasserBlackandwhite.png" alt="hoeklasserblack"><img class="kleur hoeklasser" alt="hoeklasserkleur" src="images/Hoeklasser.png"> <p>Hoeklasser</p> </a>
+      </li>
+      <li>
+        <a href="#"><img class="black keuken"  src="images/KeukenBlackandwhite.png" alt="keukenkleur"><img class="kleur keuken" alt="keukenkleur" src="images/Keuken.png"> <p>Grootkeuken-medewerker</p> </a>
+      </li>
+      <li>
+        <a href="#"><img class="black logistiek" src="images/LogistiekBlackandwhite.png" alt="logistiekblack"><img class="kleur logistiek" alt="logistiek kleur" src="images/Logistiek.png"><p>Logistiek assistent</p> </a>
+      </li>
+      <li>
+        <a href="#"><img class="black schilder" src="images/SchilderBlackandwhite.png" alt="schilderblack"><img class="kleur schilder" src="images/Schilder.png" alt="schilderkleur"><p>Schilder-decorateur</p></a>
+      </li>
+      <li>
+        <a href="#"><img class="black tuinbouw" src="images/TuinbouwBlackandwhite.png" alt="tuinbouwblack"><img class="kleur tuinbouw" src="images/Tuinbouw.png" alt="tuinbouwkleur"><p>Tuinbouwarbeider</p> </a>
+      </li>
+  </ul>  
+        </main>
+      </section>
    
     <a href="#boven"><div class="greenup">Terug naar boven</div></a>
       <footer>
@@ -280,7 +356,7 @@ footer nav li{
     <a class="Facebook" href="https://www.facebook.com/devest.vilvoorde?fref=ts">Volg ons op facebook</a>
   </li>
   <li> 
-    <a class="Pinterest" href="mailto:secretariaat.devest@sovilvoorde.be">Bezoek ons op Pinterest</a>
+    <a class="mail" href="mailto:secretariaat.devest@sovilvoorde.be">Bezoek ons op Pinterest</a>
   </li>
 
 </ul>
