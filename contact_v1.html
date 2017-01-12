@@ -5,31 +5,77 @@
   <meta charset="utf-8">
   <title>Contact | De Vest Vilvoorde</title>
   <style>
-    body{
+    body {
       margin: 0;
       padding: 0;
       font-family: "Tahoma", sans-serif;
     }
-    main h2{
+    
+    main {
+      background-image: url(images/vlinderopacity%2010.png);
+      background-repeat:
+    }
+    
+    main h2 {
       width: 100%;
       color: #7fc347;
+      /*      deze text kleur nog veranderen? ivm contract*/
       background-color: #5E5D5B;
       font-weight: 600;
       text-align: center;
+      padding: 10px;
     }
-    main dl dt{
+    
+    main dl dt {
       color: #7fc347;
       font-size: 16px;
+      /*      fontsizes omzetten naar em? */
       font-weight: 1000;
       display: inline-block;
       width: 20%;
     }
-    main dl dd{
+    
+    main dl dd {
       display: inline-block;
       width: 20%;
+    }
+    
+    main h3 {
+      font-size: 1em;
+    }
+    
+    main section {
+      background-color: #5E5D5B;
+      padding: 10px;
+      font-size: 0.8em;
+    }
+    
+    main section a {color: white;}
+    
+    main .formulier {}
+    
+    main textarea {
+      background-color: lightgrey;
+    
+      border: 2px solid #5E5D5B;
+      border-radius: 4px;
+      margin: 2px;
+    }
+    
+    main input[type=text] {
+      background-color: lightgrey;
+      border: 2px solid #5E5D5B;
+      border-radius: 4px;
+      margin: 2px;
+    }
+    main input[type=submit]{background-color:grey;
+    border-radius: 4px;
+      display: block;
+      color: white;
       
     }
-     .clearfix:after {
+    
+    .clearfix:after {
       content: " ";
       display: block;
       clear: both;
@@ -43,64 +89,32 @@
 <body>
   <header>
     <h1>xxx</h1></header>
-  <nav>
-    xxx
-  </nav>
-  
-  
+  <nav> xxx </nav>
   <main>
-    
     <h2>Bereikbaarheid</h2>
     <dl><dt>Bus</dt>
-    <dd>Hoe te gaan met de bus. xxxxxxxxxx xxxx</dd>
-      <dt>Trein</dt>
-    <dd>Hoe te gaan met de bus. xxxxxxxxxx xxxx</dd>
-      <dt>Auto</dt>
-    <dd>Hoe te gaan met de bus. xxxxxxxxxx xxxx</dd>
+      <dd>Hoe te gaan met de bus. xxxxxxxxxx xxxx</dd> <dt>Trein</dt>
+      <dd>Hoe te gaan met de bus. xxxxxxxxxx xxxx</dd> <dt>Auto</dt>
+      <dd>Hoe te gaan met de bus. xxxxxxxxxx xxxx</dd>
     </dl>
-    
-    <section><address>
-      <h3>De Vest Vilvoorde | Aangepast Beroepdsonderwijs</h3>
-      Adres 33
+    <section> <img alt="map Vilvoorde" src="images/map%20fake.PNG">
+      <h3>De Vest Vilvoorde | Aangepast Beroepdsonderwijs</h3> <address>Adres 33<br>
       3333 Vilvoorde</address>
-      Tel: 03 333 333
-      Fax: 03 333 333
-      <a href="mailto:info@info.com">Stuur De Vest een e-mail.</a>
-      
-      <div class="formulier">
-          
-      <form name="contact" method="post" id="contact" action="mailto:info@info.com"> 
-      <label for="naam">Uw naam</label>
-      <input type="text" name="naam" id="naam"> 
-        
-        
-      <label for="mail">Uw e-mail:</label>
-      <input type="text" name="mail" id="mail">
-     
-      <label for="comment">Vul hier uw vragen in.</label>
-      <textarea name="comment" id="comment" cols="80" rows="3">Vul hier uw voorstel of vragen in.</textarea>
-        <input type="submit" value="Verzenden"> </form></div>
-      
-      
-    
-    
+      <p>Tel: 03 333 333</p>
+      <p>Fax: 03 333 333</p>
+      <p><a href="mailto:info@info.com">Stuur De Vest een e-mail.</a></p>
     </section>
-    
-    
-    
-    
-    
+    <div class="formulier">
+      <form name="contact" method="post" id="contact" action="mailto:info@info.com">
+        <label for="naam">Uw naam</label>
+        <input type="text" name="naam" id="naam">
+        <label for="mail">Uw e-mail:</label>
+        <input type="text" name="mail" id="mail">
+        <label for="comment">Vul hier uw vragen in.</label>
+        <textarea name="comment" id="comment" cols="80" rows="3">Vul hier uw voorstel of vragen in.</textarea>
+        <input type="submit" value="Verzenden"> </form>
+    </div>
   </main>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <footer>xxx</footer>
 </body>
 
