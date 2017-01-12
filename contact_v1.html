@@ -21,7 +21,7 @@
     main h2 {
       width: 100%;
       color: #7fc347;
-      /*      deze text kleur nog veranderen? ivm contract*/
+      /*deze text kleur nog veranderen? ivm contrast*/
       background-color: #5E5D5B;
       font-weight: 600;
       text-align: center;
@@ -72,6 +72,7 @@
       margin: 0px;
     }
     
+/*    link naar e-mail*/
     main .maps a {
       color: #85c225;
     }
@@ -79,9 +80,7 @@
     main .formulier {
       margin: 20px;
     }
-    /*    hiermee haal ik die labelnamen weg*/
-    /*    main .boodschap{display:none;}*/
-    
+    /*    hiermee haal ik die labelnamen weg*/  
     main label {
       display: none;
     }
@@ -127,9 +126,32 @@
 </head>
 
 <body>
-  <header>
-    <h1>xxx</h1></header>
-  <nav> xxx </nav>
+<header> <img class="Hbanner" src="images/header/banner_jany.png" alt="banner school"> 
+  <nav>
+    <ul>
+      <li><a href="#">Home</a> </li>
+      <li><a href="#">Opleidingen</a>
+        <ul class="submenu">
+          <li><a href="#">schilderdecorateur</a> </li>
+          <li><a href="#">Tuinbouwarbeider</a> </li>
+          <li><a href="#">Grootkeuken-medewerker</a> </li>
+          <li><a href="#">Hoeklasser</a> </li>
+          <li><a href="#">Logistiek assistent</a> </li>
+        </ul>
+      </li>
+      <li><a href="#">Praktisch</a></li>
+      <li><a href="#">Inschrijvingen</a></li>
+      <li><a href="#">Contact</a>
+      <ul>
+        <li><a>brolbrolbrol</a></li>
+      </ul>
+      </li>
+    </ul>
+  </nav>
+  
+  </header>
+  
+  
   <main>
     <h2>Bereikbaarheid</h2> 
     <img alt="Per bus, trein of auto" src="images/logo%20contact.png" style="width:100%;height:20%" class="buslogo">
@@ -160,7 +182,69 @@
         <input type="submit" value="Verzenden"> </form>
     </div>
   </main>
-  <footer>xxx</footer>
+    <a href="#boven">
+    <div class="greenup">Terug naar boven</div>
+  </a>
+  <footer>
+    <section class="clearfix">
+      <div class="homepagina">
+        <ul>
+          <li><a href="homepagineGrey.html"><strong>Homepagina</strong></a></li>
+          <br>
+          <li><a href="#">Nieuws</a></li>
+          <li><a href="#">Type9</a></li>
+          <li><a href="#">OV3</a></li>
+          <li><a href="#">Inschrijvingsdata</a></li>
+          <br> </ul>
+      </div>
+      <div class="opleidingen">
+        <ul>
+          <li><a href="#"><strong>Opleidingen</strong></a></li>
+          <br>
+          <li><a href="#">Hoeklasser</a></li>
+          <li><a href="#">Keukenmedewerker</a></li>
+          <li><a href="#">Schilderdecorateur</a></li>
+          <li><a href="#">Tuinbouwarbeider</a></li>
+          <li><a href="#">Logistiek assistent</a> </li>
+        </ul>
+      </div>
+      <div class="praktisch">
+        <ul>
+          <li><a href="#"><strong>Praktisch</strong></a></li>
+          <br>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Visie</a></li>
+          <li><a href="#">Schoolbrochure</a></li>
+          <li><a href="#">Afspraken</a></li>
+          <li><a href="#">Waarborg</a> </li>
+        </ul>
+      </div>
+      <div class="contact">
+        <ul>
+          <li><a href="#"><strong>Contact</strong></a></li>
+          <br>
+          <li><a href="#">Bereikbaarheid</a></li>
+          <li><a href="#">Vragenformulier</a></li>
+          <br>
+          <br>
+          <br>
+          <br> </ul>
+      </div>
+      <div class="inschrijven">
+        <ul>
+          <li><a href="#"><strong>Inschrijven</strong></a></li>
+          <br>
+          <li><a href="#">Formulier</a></li>
+        </ul>
+        <nav>
+          <ul>
+            <li> <a class="Facebook" href="https://www.facebook.com/devest.vilvoorde?fref=ts">Volg ons op facebook</a> </li>
+            <li> <a class="mail" href="mailto:secretariaat.devest@sovilvoorde.be">Bezoek ons op Pinterest</a> </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  </footer>
 </body>
 
 </html>
