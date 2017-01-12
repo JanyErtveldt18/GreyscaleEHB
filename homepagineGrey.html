@@ -5,77 +5,94 @@
   <meta charset="utf-8">
   <title>de VeSt</title>
 </head>
-
 <style>
-    
-    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
   body {
     margin: 0;
     font-family: "Tahoma";
-      background-image: url(images/vlinderopacity%2010.png);
+    background-image: url(images/vlinderopacity%2010.png);
   }
-  .Hbanner{
+  
+  .Hbanner {
     width: 100%;
   }
+<<<<<<< HEAD
    main nav {
       color: #fff;
     }
     
-  main nav li {
-      list-style-type: none;
-      float: left;
-      position: relative;
-      background-color: #7fc347;
-      width: 20%;
-    }
-    
-   main nav ul {
-      margin: 0;
-      padding: 0;
-      line-height: 30px;
-      background-color: #7fc347;
-    }
-    
-   main nav a {
-      color: #fff;
-      text-decoration: none;
-      line-height: 38px;
-      width:100%;
-      height: 40px;
-      display: block;
-      text-align: center; 
-    }
-    
-   main nav ul ul {
-      position: absolute;
-      display: none;
-      background-color: #7fc347;
-    }
-    main nav ul li ul li{
-        width: 100%;
-    }
-    main nav ul li ul {
-        width: 100%;
-    }
-    
-   main nav ul li:hover ul {
-      display: block;
-    }
-   main nav ul li ul li{
-      width: 100%;
-    }
-    
-   main nav li:hover {
-      background-color: #afe377;
-    }
+=======
   
-    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  header {
+    margin: 0;
+    height: 5%;
+  }
+  
+  main nav {
+    color: #fff;
+  }
+  
+>>>>>>> origin/master
+  main nav li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    background-color: #7fc347;
+    width: 20%;
+  }
+  
+  main nav ul {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    background-color: #7fc347;
+  }
+  
+  main nav a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 38px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    text-align: center;
+  }
+  
+  main nav ul ul {
+    position: absolute;
+    display: none;
+    background-color: #7fc347;
+  }
+  
+  main nav ul li ul li {
+    width: 100%;
+  }
+  
+  main nav ul li ul {
+    width: 100%;
+  }
+  
+  main nav ul li:hover ul {
+    display: block;
+  }
+  
+  main nav ul li ul li {
+    width: 100%;
+  }
+  
+  main nav li:hover {
+    background-color: #afe377;
+  }
+  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
   .banner {
-      height: 370px;
-      background-image: url(images/Bannerschool.png);
-      background-repeat: no-repeat;
+    height: 370px;
+    background-image: url(images/Bannerschool.png);
+    background-repeat: no-repeat;
     padding-top: 2.5em;
   }
+  
   .zwartvierkant {
     background-color: black;
     width: 30%;
@@ -83,50 +100,59 @@
     float: right;
     margin-right: 3em;
   }
-   .zwartvierkant p {
-       margin: 20%;
+  
+  .zwartvierkant p {
+    margin: 20%;
     display: block;
     color: #fff;
     text-align: center;
-    }
-
-    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-    .content {
-        height: 1000px;
-    }
-    
-    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-        .navigatieopleidingen .kleur{
-      display: none;
-     width: 70%;
-    }
-     .navigatieopleidingen .black{
-      width: 70%;
-         margin-left: 2.5em;
-    }
-     .navigatieopleidingen li {
-      list-style-type: none;
-      display: inline-block;
-    }
-     .navigatieopleidingen ul li a {
-      color: black;
-      text-decoration: none;
-    }
-     .navigatieopleidingen ul li{
-      width: 20%;
-      float: left;
-      position: inherit;
-    }
-     .navigatieopleidingen ul li:after{
-      content: "";
-      display: block;
-      clear: both;
-    }
-     .navigatieopleidingen ul li a:hover{
-      font-weight: bold;
-    }
-     .navigatieopleidingen ul li a:hover .black{
+  }
+  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  .content {
+    height: 1000px;
+  }
+  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  .navigatieopleidingen .kleur {
     display: none;
+    width: 70%;
+  }
+  
+  .navigatieopleidingen .black {
+    width: 70%;
+    margin-left: 2.5em;
+  }
+  
+  .navigatieopleidingen li {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  .navigatieopleidingen ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .navigatieopleidingen ul li {
+    width: 20%;
+    float: left;
+    position: inherit;
+  }
+  
+  .navigatieopleidingen ul li:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .navigatieopleidingen ul li a:hover {
+    font-weight: bold;
+  }
+  
+  .navigatieopleidingen ul li a:hover .black {
+    display: none;
+<<<<<<< HEAD
           margin-left: 2.5em;
     }
      .navigatieopleidingen ul li a:hover .kleur{
@@ -196,101 +222,182 @@
     
     /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     
+=======
+    margin-left: 2.5em;
+  }
+  
+  .navigatieopleidingen ul li a:hover .kleur {
+    display: block;
+    margin-left: 2.5em;
+  }
+  
+  .navigatieopleidingen ul li p {
+    position: relative;
+    text-align: center;
+  }
+  
+  .clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  .info {
+    margin-top: 3em;
+    height: 600px;
+  }
+  
+  .nieuws {
+    margin: 5em;
+    width: 40%;
+    height: 100%;
+    background-color: #85c225;
+  }
+  
+  .nieuws h2 {
+    width: 100%;
+    background-color: #605d5c;
+    text-align: center;
+    height: 2em;
+    font-size: 3em;
+    padding: .75em 0 0 0;
+    color: #fff;
+  }
+  
+  .nieuws p {
+    margin: 0 2em 2em 2em;
+  }
+  
+  .articleone {}
+  
+  .articletwo {}
+  
+  .articlethree {}
+  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+>>>>>>> origin/master
   .greenup {
     background-color: #85c225;
     height: 2em;
     text-indent: -9999px;
   }
+  
   .greenup {
     background-image: url(sprite/pijl.png);
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    
   }
+  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   
-    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-  footer .clearfix {width:100%;
+  footer .clearfix {
+    width: 100%;
     background-color: #605d5c;
   }
   
-  .homepagina ul, .opleidingen ul, .praktisch ul, .contact ul {
+  .homepagina ul,
+  .opleidingen ul,
+  .praktisch ul,
+  .contact ul {
     border-right: 4px solid #fff;
   }
   
-  .homepagina li, .opleidingen li, .praktisch li, .contact li, .inschrijven li {
+  .homepagina li,
+  .opleidingen li,
+  .praktisch li,
+  .contact li,
+  .inschrijven li {
     list-style-type: none;
     margin: 0 0 .50em 0;
   }
-  .homepagina a, .opleidingen a, .praktisch a, .contact a, .inschrijven a{
-    
+  
+  .homepagina a,
+  .opleidingen a,
+  .praktisch a,
+  .contact a,
+  .inschrijven a {
     color: #fff;
   }
+  
   footer strong {
     font-size: 1.25em;
   }
-.homepagina, .opleidingen, .praktisch, .contact, .inschrijven {
-  float: left;
-  width: 20%;
-  margin-top: 10px;
-  box-sizing: border-box; 
-}
-
-  .homepagina a:hover, .opleidingen a:hover, .praktisch a:hover, .contact a:hover, .inschrijven a:hover {
+  
+  .homepagina,
+  .opleidingen,
+  .praktisch,
+  .contact,
+  .inschrijven {
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  
+  .homepagina a:hover,
+  .opleidingen a:hover,
+  .praktisch a:hover,
+  .contact a:hover,
+  .inschrijven a:hover {
     color: #85c225;
   }
-.clearfix:after {
-  content: " ";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
+  
+  .clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
   
   footer nav {
     float: right;
     padding-right: 10px;
     margin-top: 4em;
   }
-footer nav a{
-   display: inline-block;
-  width: 32px;
-  height: 32px;
-  background: url(sprite/social%20face%20mail.png);
-  text-indent: -9999px;
-  background-size: 352px 64px;
-}
-
-footer nav li{
-  list-style: none;
-  display: inline-block;
-  height:32px;
-  width:32px;
-}
-
-.Facebook {
-  background-position: 0px 0px;
-  width: 64px 64px;
-}
-
-.Facebook:hover {
-  background-position: 0px 32px;
-  width: 64px 64px;
-}
-
-.mail {
-  background-position: -32px 0px;
-}
-
-.mail:hover {
-  background-position: -32px 32px;
-}
-
-    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
+  
+  footer nav a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(sprite/social%20face%20mail.png);
+    text-indent: -9999px;
+    background-size: 352px 64px;
+  }
+  
+  footer nav li {
+    list-style: none;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+  }
+  
+  .Facebook {
+    background-position: 0px 0px;
+    width: 64px 64px;
+  }
+  
+  .Facebook:hover {
+    background-position: 0px 32px;
+    width: 64px 64px;
+  }
+  
+  .mail {
+    background-position: -32px 0px;
+  }
+  
+  .mail:hover {
+    background-position: -32px 32px;
+  }
+  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 </style>
+<<<<<<< HEAD
  
   <body>
       <header>
@@ -306,28 +413,157 @@ footer nav li{
           <li><a href="#">Tuinbouwarbeider</a> </li>
           <li><a href="#">Grootkeuken-medewerker</a> </li>
           <li><a href="#">Hoeklasser</a> </li>
+=======
+
+<body>
+  <header> <img class="Hbanner" src="images/header/banner_jany.png" alt="banner school"> </header>
+  <main id="boven">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a> </li>
+        <li><a href="#">Opleidingen</a>
+          <ul class="submenu">
+            <li><a href="#">schilderdecorateur</a> </li>
+            <li><a href="#">Tuinbouwarbeider</a> </li>
+            <li><a href="#">Grootkeuken-medewerker</a> </li>
+            <li><a href="#">Hoeklasser</a> </li>
+            <li><a href="#">Logistiek assistent</a> </li>
+          </ul>
+        </li>
+        <li><a href="#">Praktisch</a>
+          <ul class="submenu">
+            <li><a href="#">Team</a> </li>
+            <li><a href="#">Visie</a> </li>
+            <li><a href="#">Schoolbrochure</a> </li>
+            <li><a href="#">Afspraken</a> </li>
+            <li><a href="#">Waarborg</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a>
+          <ul class="submenu">
+            <li><a href="#">Bereikbaarheid</a> </li>
+            <li><a href="#">Vragenformulier</a> </li>
+          </ul>
+        </li>
+        <li><a href="#">Inschrijvingen</a>
+          <ul class="submenu">
+            <li><a href="#">Formulier</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </main>
+  <section class="banner">
+    <div class="zwartvierkant">
+      <p>Aangepast beroepsonderwijs de VeSt
+        <br>Vestenstraat 14
+        <br>1800 Vilvoorde
+        <br><strong>Tel:</strong>02/ 251 27 03
+        <br><strong>Fax:</strong>02/ 251 94 29
+        <br>secretariaat.devest@sovilvoorde.be</p>
+    </div>
+  </section>
+  <section class="content">
+    <section class="clearfix">
+      <main class="navigatieopleidingen">
+        <ul>
+          <li>
+            <a href="#"><img class="black hoeklasser" src="images/HoeklasserBlackandwhite.png" alt="hoeklasserblack"><img class="kleur hoeklasser" alt="hoeklasserkleur" src="images/Hoeklasser.png">
+              <p>Hoeklasser</p>
+            </a>
+          </li>
+          <li>
+            <a href="#"><img class="black keuken" src="images/KeukenBlackandwhite.png" alt="keukenkleur"><img class="kleur keuken" alt="keukenkleur" src="images/Keuken.png">
+              <p>Grootkeuken-medewerker</p>
+            </a>
+          </li>
+          <li>
+            <a href="#"><img class="black logistiek" src="images/LogistiekBlackandwhite.png" alt="logistiekblack"><img class="kleur logistiek" alt="logistiek kleur" src="images/Logistiek.png">
+              <p>Logistiek assistent</p>
+            </a>
+          </li>
+          <li>
+            <a href="#"><img class="black schilder" src="images/SchilderBlackandwhite.png" alt="schilderblack"><img class="kleur schilder" src="images/Schilder.png" alt="schilderkleur">
+              <p>Schilder-decorateur</p>
+            </a>
+          </li>
+          <li>
+            <a href="#"><img class="black tuinbouw" src="images/TuinbouwBlackandwhite.png" alt="tuinbouwblack"><img class="kleur tuinbouw" src="images/Tuinbouw.png" alt="tuinbouwkleur">
+              <p>Tuinbouwarbeider</p>
+            </a>
+          </li>
+        </ul>
+      </main>
+    </section>
+    <section class="info">
+      <div class="nieuws">
+        <h2>Nieuws</h2>
+        <p><strong>Fruitactie</strong>
+          <br> Volgende week woensdag is er de grote fruitactie: Neem allemaal een stukje fruit mee! Er worden foto's genomen en wie het grappigste fruit eet wint een mooie prijs!</p>
+        <p><strong>Facebook</strong>
+          <br> 25 december 2016 komen de foto's op de Facebook pagina van de grote fruitactie.</p>
+      </div>
+      <article class="articleone"> </article>
+      <article class="articletwo"> </article>
+      <article class="articlethree"> </article>
+    </section>
+  </section>
+  <a href="#boven">
+    <div class="greenup">Terug naar boven</div>
+  </a>
+  <footer>
+    <section class="clearfix">
+      <div class="homepagina">
+        <ul>
+          <li><a href="homepagineGrey.html"><strong>Homepagina</strong></a></li>
+          <br>
+          <li><a href="#">Nieuws</a></li>
+          <li><a href="#">Type9</a></li>
+          <li><a href="#">OV3</a></li>
+          <li><a href="#">Inschrijvingsdata</a></li>
+          <br> </ul>
+      </div>
+      <div class="opleidingen">
+        <ul>
+          <li><a href="#"><strong>Opleidingen</strong></a></li>
+          <br>
+          <li><a href="#">Hoeklasser</a></li>
+          <li><a href="#">Keukenmedewerker</a></li>
+          <li><a href="#">Schilderdecorateur</a></li>
+          <li><a href="#">Tuinbouwarbeider</a></li>
+>>>>>>> origin/master
           <li><a href="#">Logistiek assistent</a> </li>
         </ul>
-      </li>
-      <li><a href="#">Praktisch</a>
-        <ul class="submenu">
-          <li><a href="#">Team</a> </li>
-          <li><a href="#">Visie</a> </li>
-          <li><a href="#">Schoolbrochure</a> </li>
-          <li><a href="#">Afspraken</a> </li>
-          <li><a href="#">Waarborg</a></li>
-        </ul>  
-      </li>
-      <li><a href="#">Contact</a>
-        <ul class="submenu">
-          <li><a href="#">Bereikbaarheid</a> </li>
-          <li><a href="#">Vragenformulier</a> </li>
+      </div>
+      <div class="praktisch">
+        <ul>
+          <li><a href="#"><strong>Praktisch</strong></a></li>
+          <br>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Visie</a></li>
+          <li><a href="#">Schoolbrochure</a></li>
+          <li><a href="#">Afspraken</a></li>
+          <li><a href="#">Waarborg</a> </li>
         </ul>
-      </li>
-      <li><a href="#">Inschrijvingen</a>
-      <ul class="submenu">
+      </div>
+      <div class="contact">
+        <ul>
+          <li><a href="#"><strong>Contact</strong></a></li>
+          <br>
+          <li><a href="#">Bereikbaarheid</a></li>
+          <li><a href="#">Vragenformulier</a></li>
+          <br>
+          <br>
+          <br>
+          <br> </ul>
+      </div>
+      <div class="inschrijven">
+        <ul>
+          <li><a href="#"><strong>Inschrijven</strong></a></li>
+          <br>
           <li><a href="#">Formulier</a></li>
         </ul>
+<<<<<<< HEAD
       </li>
     </ul>
   </nav>
@@ -457,33 +693,16 @@ footer nav li{
         <li><a href="#">Formulier</a></li>     
        </ul>
        
+=======
+>>>>>>> origin/master
         <nav>
-
-<ul>
-  <li>
-    <a class="Facebook" href="https://www.facebook.com/devest.vilvoorde?fref=ts">Volg ons op facebook</a>
-  </li>
-  <li> 
-    <a class="mail" href="mailto:secretariaat.devest@sovilvoorde.be">Bezoek ons op Pinterest</a>
-  </li>
-
-</ul>
-</nav>
-   
-    </div>
-  </section>
-        
-        
-        
-        
-        
-        
-      </footer>
-  
-  
-  
-  
-  
-
-  </body>
+          <ul>
+            <li> <a class="Facebook" href="https://www.facebook.com/devest.vilvoorde?fref=ts">Volg ons op facebook</a> </li>
+            <li> <a class="mail" href="mailto:secretariaat.devest@sovilvoorde.be">Bezoek ons op Pinterest</a> </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  </footer>
+</body>
 <html>
