@@ -7,9 +7,13 @@
 </head>
 
 <style>
+    
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    
   body {
     margin: 0;
     font-family: "Tahoma";
+      background-image: url(images/vlinderopacity%2010.png);
   }
   
    main nav {
@@ -58,14 +62,13 @@
       background-color: #afe377;
     }
   
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   .banner {
-    height: 370px;
-    background-image: url(images/Bannerschool.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+      height: 370px;
+      background-image: url(images/Bannerschool.png);
+      background-repeat: no-repeat;
     padding-top: 2.5em;
   }
-  
   .zwartvierkant {
     background-color: black;
     width: 30%;
@@ -74,23 +77,25 @@
     margin-right: 3em;
   }
    .zwartvierkant p {
+       margin: 20%;
     display: block;
     color: #fff;
     text-align: center;
-        
     }
 
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     .content {
         height: 1000px;
-        background-image: url(images/vlinderopacity%2010.png);
     }
- 
+    
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
         .navigatieopleidingen .kleur{
       display: none;
-     width: 100%;
+     width: 70%;
     }
      .navigatieopleidingen .black{
-      width: 100%;
+      width: 70%;
+         margin-left: 2.5em;
     }
      .navigatieopleidingen li {
       list-style-type: none;
@@ -115,14 +120,54 @@
     }
      .navigatieopleidingen ul li a:hover .black{
     display: none;
+          margin-left: 2.5em;
     }
      .navigatieopleidingen ul li a:hover .kleur{
       display: block;
+          margin-left: 2.5em;
     }
      .navigatieopleidingen ul li p{
       position: relative;
       text-align: center;
     }
+    
+    .clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+    
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    
+    .info {
+        margin-top: 4em;
+        height: 600px;
+        background-color: grey;
+    }
+    
+    .nieuws {
+        margin: 5em;
+        width: 40%;
+        height: 100%;
+        background-color: aquamarine;
+    }
+    
+    .articleone {
+        
+    }
+    
+    .articletwo {
+        
+    }
+    
+    .articlethree {
+        
+    }
+    
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     
   .greenup {
     background-color: #85c225;
@@ -138,7 +183,8 @@
     
   }
   
-  .clearfix {width:100%;
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  footer .clearfix {width:100%;
     background-color: #605d5c;
   }
   
@@ -215,6 +261,7 @@ footer nav li{
   background-position: -32px 32px;
 }
 
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 </style>
  
@@ -263,6 +310,7 @@ footer nav li{
     </section>
    
       <section class="content">
+          <section class="clearfix">
         <main class="navigatieopleidingen">
             <ul>
       <li>
@@ -282,8 +330,27 @@ footer nav li{
       </li>
   </ul>  
         </main>
-      </section>
+          </section>
    
+      <section class="info">
+        <div class="nieuws">
+            
+          <article class="articleone">
+        
+          </article>
+            
+            <article class="articletwo">
+        
+          </article>
+            
+            <article class="articlethree">
+        
+          </article>
+          
+        
+        </div>
+      </section>
+      </section>
     <a href="#boven"><div class="greenup">Terug naar boven</div></a>
       <footer>
           <section class="clearfix">
