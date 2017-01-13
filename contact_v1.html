@@ -5,158 +5,52 @@
   <meta charset="utf-8">
   <title>Contact | De Vest Vilvoorde</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: "Tahoma", sans-serif;
-    }
-    
-    main {
-      background-image: url(images/vlinderopacity%2010.png);
-      background-repeat:
-    }
-    
-    main .buslogo {margin-top:  10%;}
-    
-    main h2 {
-      width: 100%;
-      color: #7fc347;
-      /*deze text kleur nog veranderen? ivm contrast*/
-      background-color: #5E5D5B;
-      font-weight: 600;
-      text-align: center;
-      padding: 10px;
-    }
-    
-    main dl {
-      list-style-type: none;
-      -webkit-column-count: 3;
-      /* Chrome, Safari, Opera */
-      -moz-column-count: 3;
-      /* Firefox */
-      column-count: 3;
-      margin-bottom: 10%;
-    }
-    
-    main dl dt {
-      text-align: center;
-      color: #7fc347;
-      font-size: 16px;
-      /*      fontsizes omzetten naar em? */
-      font-weight: 1000;
-      margin-bottom: 10px;
-      /*      display: inline;*/
-      /*      width: 10%;*/
-    }
-    
-    main dl dd {
-      margin: 5px;
-      /*      display: inline-block;*/
-      /*      width: 20%;*/
-    }
-    
-    main h3 {
-      font-size: 1em;
-      margin: 0px;
-    }
-    
-    main .maps {
-      background-color: #5E5D5B;
-      margin: 20px 10px 10px 10px;
-      padding: 10px;
-      font-size: 0.8em;
-      color: white;
-    }
-    
-    main .maps p {
-      margin: 0px;
-    }
-    
-/*    link naar e-mail*/
-    main .maps a {
-      color: #85c225;
-    }
-    
-    main .formulier {
-      margin: 20px;
-    }
-    /*    hiermee haal ik die labelnamen weg*/  
-    main label {
-      display: none;
-    }
-    
-    main input {
-      font-family: Tahoma;
-    }
-    
-    main input[type=text] {
-      background-color: lightgrey;
-      border: 2px solid #5E5D5B;
-      border-radius: 4px;
-      margin: 2px;
-      width: 45%;
-    }
-    
-    main input[type=submit] {
-      background-color: grey;
-      border-radius: 4px;
-      display: block;
-      color: white;
-      padding: 5px;
-    }
-    
-    main textarea {
-      font: Tahoma;
-      background-color: lightgrey;
-      width: 92%;
-      border: 2px solid #5E5D5B;
-      border-radius: 4px;
-      margin: 2px;
-    }
-    
-    .clearfix:after {
-      content: " ";
-      display: block;
-      clear: both;
-      visibility: hidden;
-      line-height: 0;
-      height: 0;
-    }
-  </style>
 </head>
 
 <body>
 <header> <img class="Hbanner" src="images/header/banner_jany.png" alt="banner school"> 
-  
+  <nav>
+      <ul>
+        <li><a href="#">Home</a> </li>
+        <li><a href="#">Opleidingen</a>
+          <ul class="submenu">
+            <li><a href="#">Schilder-decorateur</a> </li>
+            <li><a href="#">Tuinbouwarbeider</a> </li>
+            <li><a href="#">Grootkeuken-medewerker</a> </li>
+            <li><a href="hoeklasser.html">Hoeklasser</a> </li>
+            <li><a href="#">Logistiek assistent</a> </li>
+          </ul>
+        </li>
+        <li><a href="#">Praktisch</a>
+          <ul class="submenu">
+            <li><a href="#">Team</a> </li>
+            <li><a href="#">Visie</a> </li>
+            <li><a href="#">Schoolbrochure</a> </li>
+            <li><a href="#">Afspraken</a> </li>
+            <li><a href="#">Waarborg</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a>
+          <ul class="submenu">
+            <li><a href="#">Bereikbaarheid</a> </li>
+            <li><a href="#">Vragenformulier</a> </li>
+          </ul>
+        </li>
+        <li><a href="#">Inschrijvingen</a>
+          <ul class="submenu">
+            <li><a href="#">Formulier</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
   
   </header>
   
   
   <main>
     
-    <nav>
-    <ul>
-      <li><a href="#">Home</a> </li>
-      <li><a href="#">Opleidingen</a>
-        <ul class="submenu">
-          <li><a href="#">schilderdecorateur</a> </li>
-          <li><a href="#">Tuinbouwarbeider</a> </li>
-          <li><a href="#">Grootkeuken-medewerker</a> </li>
-          <li><a href="#">Hoeklasser</a> </li>
-          <li><a href="#">Logistiek assistent</a> </li>
-        </ul>
-      </li>
-      <li><a href="#">Praktisch</a></li>
-      <li><a href="#">Inschrijvingen</a></li>
-      <li><a href="#">Contact</a>
-      <ul>
-        <li><a>brolbrolbrol</a></li>
-      </ul>
-      </li>
-    </ul>
-  </nav>
-    <h2>Bereikbaarheid</h2> 
+    
+    <h2 class="titelcontact">Bereikbaarheid</h2> 
     <img alt="Per bus, trein of auto" src="images/logo%20contact.png" style="width:100%;height:20%" class="buslogo">
     <dl><dt>Bus</dt>
       <dd>Hoe te gaan met de bus. xxxxxxxxxx xxxx</dd> <dt>Trein</dt>
@@ -164,7 +58,7 @@
       <dd>Hoe te gaan met de autooow. xxxxxxxxxx xxxx</dd>
     </dl>
     <div class="maps"> <img alt="map Vilvoorde" src="images/map%20fake.PNG" style="width:100%;height:50%">
-      <h3>De Vest Vilvoorde | Aangepast Beroepdsonderwijs</h3> <address>Adres 33<br>
+      <h3 class="schoolname">De Vest Vilvoorde | Aangepast Beroepdsonderwijs</h3> <address>Adres 33<br>
       3333 Vilvoorde</address>
       <p>Tel: 03 333 333</p>
       <p>Fax: 03 333 333</p>
