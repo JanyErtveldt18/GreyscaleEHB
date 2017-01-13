@@ -5,11 +5,29 @@
   <meta charset="utf-8">
   <title>Contact | De Vest Vilvoorde</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <style>
+/*    later toegevoegde css*/
+    
+    .kolomcontact {width:60%;
+      margin: auto;}
+    
+    input[type=text] {padding: 8px; width:50%;
+      margin-left: 0px;
+    }
+    
+    textarea{width: 100%;
+    padding: 8px;
+    margin-left: 0px;
+    }
+   
+/*    dit is om 'bereikbaarheid' vanonder het menu te halen*/
+    .titelcontact{padding-top: 1.2em;}
+  </style>
 </head>
 
 <body>
-<header> <img class="Hbanner" src="images/header/banner_jany.png" alt="banner school"> 
-  <nav>
+  <header id="boven"> <img class="Hbanner" src="images/header/banner_jany.png" alt="banner school">
+    <nav>
       <ul>
         <li><a href="#">Home</a> </li>
         <li><a href="#">Opleidingen</a>
@@ -43,43 +61,39 @@
         </li>
       </ul>
     </nav>
-  
-  </header>
-  
-  
-  <main>
-    
-    
     <h2 class="titelcontact">Bereikbaarheid</h2> 
-    <img alt="Per bus, trein of auto" src="images/logo%20contact.png" style="width:100%;height:20%" class="buslogo">
-    <dl><dt>Bus</dt>
-      <dd>Hoe te gaan met de bus. xxxxxxxxxx xxxx</dd> <dt>Trein</dt>
-      <dd>Hoe te gaan met de trein. xxxxxxxxxx xxxx</dd> <dt>Auto</dt>
-      <dd>Hoe te gaan met de autooow. xxxxxxxxxx xxxx</dd>
-    </dl>
-    <div class="maps"> <img alt="map Vilvoorde" src="images/map%20fake.PNG" style="width:100%;height:50%">
-      <h3 class="schoolname">De Vest Vilvoorde | Aangepast Beroepdsonderwijs</h3> <address>Adres 33<br>
+  </header>
+  <main>
+    <div class="kolomcontact">
+      <img alt="Per bus, trein of auto" src="images/logo%20contact.png" style="width:100%;height:20%" class="buslogo">
+      <dl><dt>Bus</dt>
+        <dd>Hoe te gaan met de bus. xxxxxxxxxx xxxx</dd> <dt>Trein</dt>
+        <dd>Hoe te gaan met de trein. xxxxxxxxxx xxxx</dd> <dt>Auto</dt>
+        <dd>Hoe te gaan met de autooow. xxxxxxxxxx xxxx</dd>
+      </dl>
+      <div class="maps"> <img alt="map Vilvoorde" src="images/map%20fake.PNG" style="width:100%;height:50%">
+        <h3 class="schoolname">De Vest Vilvoorde | Aangepast Beroepdsonderwijs</h3> <address>Adres 33<br>
       3333 Vilvoorde</address>
-      <p>Tel: 03 333 333</p>
-      <p>Fax: 03 333 333</p>
-      <p><a href="mailto:info@info.com">Stuur De Vest een e-mail.</a></p>
-    </div>
-    <div class="formulier">
-      <form name="contact" method="post" id="contact" action="mailto:info@info.com">
-        <div>
-          <label for="naam">Uw naam:</label>
-          <input type="text" name="naam" id="naam" value="Uw naam">
-          <label for="mail">Uw e-mail:</label>
-          <input type="text" name="mail" id="mail" value="Uw e-mail">
-        </div>
-        <div>
-          <label for="comment" class="boodschap">Boodschap:</label>
-        </div>
-        <textarea name="comment" id="comment" cols="80" rows="3">Vul hier uw voorstel of vragen in.</textarea>
-        <input type="submit" value="Verzenden"> </form>
+        <p>Tel: 03 333 333</p>
+        <p>Fax: 03 333 333</p>
+        <p><a href="mailto:info@info.com">Stuur De Vest een e-mail.</a></p>
+      </div>
+      <div class="formulier">
+        <form name="contact" method="post" id="contact" action="mailto:info@info.com">
+          <div>
+            <label for="naam">Uw naam:</label>
+            <input type="text" name="naam" id="naam" value="Uw naam">
+            <label for="mail">Uw e-mail:</label>
+            <input type="text" name="mail" id="mail" value="Uw e-mail"> </div>
+          <div>
+            <label for="comment" class="boodschap">Boodschap:</label>
+          </div>
+          <textarea name="comment" id="comment" cols="80" rows="3">Vul hier uw voorstel of vragen in.</textarea>
+          <input type="submit" value="Verzenden"> </form>
+      </div>
     </div>
   </main>
-    <a href="#boven">
+  <a href="#boven">
     <div class="greenup">Terug naar boven</div>
   </a>
   <footer>
@@ -135,8 +149,8 @@
         </ul>
         <nav>
           <ul>
-            <li> <a class="Facebook" href="https://www.facebook.com/devest.vilvoorde?fref=ts">Volg ons op facebook</a> </li>
-            <li> <a class="mail" href="mailto:secretariaat.devest@sovilvoorde.be">Bezoek ons op Pinterest</a> </li>
+            <li> <a class="Facebook" href="https://www.facebook.com/devest.vilvoorde?fref=ts">Volg De Vest op facebook</a> </li>
+            <li> <a class="mail" href="mailto:secretariaat.devest@sovilvoorde.be">Stuur De Vest een e-mail.</a> </li>
           </ul>
         </nav>
       </div>
