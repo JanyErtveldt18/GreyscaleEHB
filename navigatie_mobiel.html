@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Navigation with icons</title>
+  <style>
+      
+  body {
+    margin: 0;
+    font-family: "Tahoma",sans-serif;
+    background-image: url(images/vlinderopacity%2010.png);
+  }
+      header {
+    margin: 0;
+    height: 5%;
+  }
+  
+   header nav {
+    color: #fff;
+    margin-top: -3px;
+  }
+  
+   header nav li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    background-color: #7fc347;
+    width: 20%;
+  }
+  
+   header nav ul {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    background-color: #7fc347;
+  }
+  
+   header nav a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 38px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    text-align: center;
+  }
+  
+   header nav ul ul {
+    position: absolute;
+    display: none;
+    background-color: #85c225;
+  }
+  
+   header nav ul li ul li {
+    width: 100%;
+  }
+  
+   header nav ul li ul {
+    width: 100%;
+  }
+  
+   header nav ul li:hover ul {
+    display: block;
+  }
+  
+   header nav ul li ul li {
+    width: 100%;
+  }
+  
+   header nav li:hover {
+    background-color: #afe377;
+  }
+
+@media screen and (max-width:450px){
+    body {
+        font-size: 10px
+    }
+  header nav ul  ul {
+    position: relative;
+   
+  }
+  header nav ul li ul li a{
+    background-color: #605d5c;
+  }
+   header nav ul li ul li a:hover{
+    background-color: #85c225;
+  }
+  
+    header nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header nav a {
+        height: 30px;
+        line-height: 30px;
+    }
+ 
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  </style>
+</head>
+<body>
+  <header id="boven">
+    <nav>
+      <ul>
+        <li class="Hhome"><a class="Hhome" href="#">Home</a> </li>
+        <li class="Hopleidingen"><a class="Hopleidingen" href="#">Opleidingen</a>
+          <ul class="submenu">
+            <li><a href="#">schilderdecorateur</a> </li>
+            <li><a href="#">Tuinbouwarbeider</a> </li>
+            <li><a href="#">Grootkeuken-medewerker</a> </li>
+            <li><a href="hoeklasser.html">Hoeklasser</a> </li>
+            <li><a href="#">Logistiek assistent</a> </li>
+          </ul>
+        </li>
+        <li class="Hpraktisch"><a class="Hpraktisch" href="#">Praktisch</a>
+          <ul class="submenu">
+            <li><a href="#">Team</a> </li>
+            <li><a href="#">Visie</a> </li>
+            <li><a href="#">Schoolbrochure</a> </li>
+            <li><a href="#">Afspraken</a> </li>
+            <li><a href="#">Waarborg</a></li>
+          </ul>
+        </li>
+        <li class="Hcontact" ><a class="Hcontact" href="#">Contact</a>
+          <ul class="submenu">
+            <li><a href="#">Bereikbaarheid</a> </li>
+            <li><a href="#">Vragenformulier</a> </li>
+          </ul>
+        </li>
+        <li class="Hinschrijvingen"><a href="#" class="Hinschrijvingen">Inschrijvingen</a>
+          <ul class="submenu">
+            <li><a href="#">Formulier</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+      </header>
+</body>
+</html>
