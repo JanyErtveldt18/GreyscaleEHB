@@ -15,12 +15,12 @@
     height: 5%;
   }
   
-  main nav {
+   header nav {
     color: #fff;
     margin-top: -3px;
   }
   
-  main nav li {
+   header nav li {
     list-style-type: none;
     float: left;
     position: relative;
@@ -28,14 +28,14 @@
     width: 20%;
   }
   
-  main nav ul {
+   header nav ul {
     margin: 0;
     padding: 0;
     line-height: 30px;
     background-color: #7fc347;
   }
   
-  main nav a {
+   header nav a {
     color: #fff;
     text-decoration: none;
     line-height: 38px;
@@ -45,29 +45,29 @@
     text-align: center;
   }
   
-  main nav ul ul {
+   header nav ul ul {
     position: absolute;
     display: none;
     background-color: #7fc347;
   }
   
-  main nav ul li ul li {
+   header nav ul li ul li {
     width: 100%;
   }
   
-  main nav ul li ul {
+   header nav ul li ul {
     width: 100%;
   }
   
-  main nav ul li:hover ul {
+   header nav ul li:hover ul {
     display: block;
   }
   
-  main nav ul li ul li {
+   header nav ul li ul li {
     width: 100%;
   }
   
-  main nav li:hover {
+   header nav li:hover {
     background-color: #afe377;
   }
   /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -96,18 +96,20 @@
   /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   
   .content {
-    height: 1000px;
+    height: 920px;
   }
   /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   
   .navigatieopleidingen .kleur {
     display: none;
     width: 70%;
+      margin-top: .75em;
   }
   
   .navigatieopleidingen .black {
     width: 70%;
     margin-left: 2.5em;
+      margin-top: 1em;
   }
   
   .navigatieopleidingen li {
@@ -171,7 +173,7 @@
     width: 42%;
     height: 100%;
     background-color: #85c225;
-      float: left;
+    float: left;
   }
   
   .nieuws h2 {
@@ -204,7 +206,7 @@
         margin: 0 ;
     }
     .articletwo, .articlethree {
-        margin-top: 6em;
+        margin-top: 5em;
     }
     .button {
         float: right;
