@@ -1,2 +1,0 @@
-# GreyscaleEHB
-de VeSt website
