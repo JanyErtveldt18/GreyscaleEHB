@@ -4,282 +4,46 @@
 
 <head>
   <meta charset="utf-8" name="viewport" content="width=device-width">
+  <link rel=stylesheet href="Teampagina.css">
   <title>Ons team | Devest</title>
 
-  <style>
-    @media screen and (min-width:1600px) {
-      body {
-        background-image: url(images/vlinderopacity%2010.png);
-        background-repeat: repeat;
-        margin: 0;
-        font-family: "Tahoma";
-        margin: 0;
-        padding: 0;
-        font-family: "Tahoma", sans-serif;
-      }
-      .main table {
-        width: 80%;
-        margin: auto;
-      }
-      .nav2 ul li {
-        list-style-type: none;
-        float: left;
-        position: relative;
-        background-color: #cee6a8;
-        margin-bottom: 1em;
-        width: 16.6%;
-      }
-      .nav2 ul {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        background-color: #cee6a8;
-      }
-      .nav2 a {
-        text-decoration: none;
-        color: black;
-        display: block;
-        width: 100%;
-        text-align: center;
-        line-height: 40px;
-      }
-      .nav2 a:hover {
-        background-color: #85c225;
-      }
-      .nav22 {
-        display: none;
-      }
-      h1 {
-        text-align: center;
-        font-size: 90px
-      }
-      img {
-        width: 100%;
-      }
-      .button {
-        text-align: center;
-        background: #605d5c;
-        color: #85c225;
-        text-decoration: none;
-        font-family: "tahoma";
-        padding: 3px 15px 3px 15px;
-        border-radius: 15px;
-        box-shadow: 1.5px 4px 3px 0 rgba(0, 0, 0, 0.2);
-        float: right;
-        margin: 0.5em 1em 0 0;
-      }
-      .button:hover {
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
-        transition-duration: 0.4s;
-      }
-      .titel {
-        clear: both;
-        width: 100%;
-        background-color: #bce471;
-        text-align: center;
-        height: 1.5em;
-        margin: 0;
-        font-size: 40px
-      }
-      .titel2 {
-        display: none;
-      }
-      .table {
-        clear: both;
-        margin: 0 0 1em 0;
-      }
-      .table img {
-        width: 40%;
-      }
-      .tabel2 {
-        display: none;
-      }
-      .greenup {
-        display: none;
-      }
-    }
-    
-    @media screen and (min-width: 750px) {
-      body {
-        background-image: url(images/vlinderopacity%2010.png);
-        background-repeat: repeat;
-        margin: 0;
-        font-family: "Tahoma";
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        font-family: "Tahoma", sans-serif;
-      }
-      .main table {
-        width: 60%;
-        margin: auto;
-      }
-      .nav2 ul li {
-        list-style-type: none;
-        float: left;
-        position: relative;
-        background-color: #cee6a8;
-        margin-bottom: 1em;
-        width: 16.6%;
-      }
-      .nav2 ul {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        background-color: #cee6a8;
-      }
-      .nav2 a {
-        text-decoration: none;
-        color: black;
-        display: block;
-        width: 100%;
-        text-align: center;
-        line-height: 40px;
-      }
-      .nav2 a:hover {
-        background-color: #85c225;
-      }
-      .nav22 {
-        display: none;
-      }
-      h1 {
-        text-align: center;
-        font-size: 40px
-      }
-      img {
-        width: 100%;
-      }
-      .button {
-        text-align: center;
-        background: #605d5c;
-        color: #85c225;
-        text-decoration: none;
-        font-family: "tahoma";
-        padding: 3px 15px 3px 15px;
-        border-radius: 15px;
-        box-shadow: 1.5px 4px 3px 0 rgba(0, 0, 0, 0.2);
-        float: right;
-        margin: 0.5em 1em 0 0;
-      }
-      .button:hover {
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
-        transition-duration: 0.4s;
-      }
-      .titel {
-        clear: both;
-        width: 100%;
-        background-color: #bce471;
-        text-align: center;
-        height: 1.5em;
-        margin: 0;
-      }
-      .titel2 {
-        display: none;
-      }
-      .table {
-        clear: both;
-        margin: 0 0 1em 0;
-      }
-      .table img {
-        width: 40%;
-      }
-      .tabel2 {
-        display: none;
-      }
-      .greenup {
-        display: none;
-      }
-    }
-    
-    @media screen and (max-width: 750px) {
-      body {
-        background-image: url(images/vlinderopacity%2010.png);
-        background-repeat: repeat;
-        margin: 0;
-        font-family: "Tahoma";
-        font-size: 16px;
-        padding: 0;
-        font-family: "Tahoma", sans-serif;
-      }
-      /*Navigatie-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
-      .main table {
-        width: 80%;
-        margin: auto;
-      }
-      .nav22 ul li {
-        list-style-type: none;
-        float: left;
-        position: relative;
-        background-color: #cee6a8;
-        width: 100%;
-      }
-      .nav22 ul {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        background-color: #cee6a8;
-      }
-      .nav22 a {
-        text-decoration: none;
-        color: black;
-        display: block;
-        width: 100%;
-        text-align: center;
-        line-height: 40px;
-      }
-      .nav22 a:hover {
-        background-color: #85c225;
-      }
-      .nav2 {
-        display: none;
-      }
-      /*Body----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-      h1 {
-        text-align: center;
-        font-size: 30px
-      }
-      img {
-        width: 100%;
-      }
-      .button {
-        display: none;
-      }
-      .titel {
-        display: none;
-      }
-      .titel2 {
-        clear: both;
-        width: 100%;
-        background-color: #bce471;
-        text-align: center;
-        height: 1.5em;
-        margin: 0 0 1em 0;
-      }
-      .greenup {
-        background-color: #bce471;
-        height: 1.5em;
-        text-indent: -9999px;
-      }
-      .greenup {
-        background-image: url(sprite/pijl.png);
-        background-size: 40px;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: block;
-      }
-      .table {
-        display: none;
-      }
-      .tabel2 {
-        margin: 0 0 1em 0;
-        width: 20%;
-      }
-      .tabel2 img {
-        width: 30%;
-      }
-    }
-  </style>
+
 </head>
+
+<header id="boven"> <img class="Hbanner" src="images/header/banner_jany.png" alt="banner school">
+
+  <nav class="clearfix">
+    <ul>
+      <li><a href="index.html">Home</a> </li>
+      <li><a href="index.html">Opleidingen</a>
+        <ul class="submenu">
+          <li><a href="schilderdecorateur.html">Schilderdecorateur</a> </li>
+          <li><a href="tuinbouw.html">Tuinbouwarbeider</a> </li>
+          <li><a href="grootkeuken.html">Grootkeuken-medewerker</a> </li>
+          <li><a href="hoeklasser.html">Hoeklasser</a> </li>
+          <li><a href="logistiekassistent.html">Logistiek assistent</a> </li>
+        </ul>
+      </li>
+      <li><a href="teampagina.html">Praktisch</a>
+        <ul class="submenu">
+          <li><a href="teampagina.html">Team</a> </li>
+          <li><a href="autisme_t9.html">Visie</a> </li>
+          <li><a href="#">Schoolbrochure</a> </li>
+          <li><a href="#">Afspraken</a> </li>
+          <li><a href="#">Waarborg</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a>
+        <ul class="submenu">
+          <li><a href="contact.html">Bereikbaarheid</a> </li>
+          <li><a href="contact.html#contactform">Vragenformulier</a> </li>
+        </ul>
+      </li>
+      <li><a href="inschrijving.html">Inschrijvingen</a>
+      </li>
+    </ul>
+  </nav>
+</header>
 
 <body>
   <main id="boven">
@@ -290,7 +54,7 @@
 
     <section class="foto"></section>
 
-    <nav class="nav2">
+    <nav class="navTeam">
       <ul>
         <li><a href="#Directie"><b>Directie</b></a></li>
         <li><a href="#OndersteunendTeam"><b>Ondersteunend team</b></a></li>
@@ -302,7 +66,7 @@
       </ul>
     </nav>
 
-    <nav class="nav22">
+    <nav class="navTeam2">
       <ul>
         <li><a href="#Directie1"><b>Directie</b></a></li>
         <li><a href="#OndersteunendTeam1"><b>Ondersteunend team</b></a></li>
@@ -317,8 +81,8 @@
     <div class="main">
 
 
-      <h3 id="Directie" class="titel">Directie</h3>
-      <a href="#boven" class="button">Naar boven</a>
+      <h3 id="Directie" class="titelTeam">Directie</h3>
+      <a href="#boven" class="buttonTeam">Naar boven</a>
 
       <table class="table">
         <tr>
@@ -335,8 +99,8 @@
         </tr>
       </table>
 
-      <h3 id="OndersteunendTeam" class="titel">Ondersteunend team</h3>
-      <a href="#boven" class="button">Naar boven</a>
+      <h3 id="OndersteunendTeam" class="titelTeam">Ondersteunend team</h3>
+      <a href="#boven" class="buttonTeam">Naar boven</a>
 
       <table class="table">
         <tr>
@@ -349,8 +113,8 @@
         </tr>
       </table>
 
-      <h3 id="SODI" class="titel">Sociale dischipline-team (SODI)</h3>
-      <a href="#boven" class="button">Naar boven</a>
+      <h3 id="SODI" class="titelTeam">Sociale dischipline-team (SODI)</h3>
+      <a href="#boven" class="buttonTeam">Naar boven</a>
 
       <table class="table">
         <tr>
@@ -376,8 +140,8 @@
         </tr>
       </table>
 
-      <h3 id="Onderwijs" class="titel">Onderwijsteam</h3>
-      <a href="#boven" class="button">Naar boven</a>
+      <h3 id="Onderwijs" class="titelTeam">Onderwijsteam</h3>
+      <a href="#boven" class="buttonTeam">Naar boven</a>
 
       <table class="table">
         <tr>
@@ -417,8 +181,8 @@
 
       </table>
 
-      <h3 id="Personeel" class="titel">Personeel de VeSt<a href="#boven"></h3>
-      <a href="#boven" class="button">Naar boven</a>
+      <h3 id="Personeel" class="titelTeam">Personeel de VeSt<a href="#boven"></h3>
+      <a href="#boven" class="buttonTeam">Naar boven</a>
 
 
       <table class="table table3">
@@ -544,8 +308,8 @@
         </tr>
       </table>
 
-      <h3 id="Onderhoud" class="titel">Onderhoudsteam</h3>
-      <a href="#boven" class="button">Naar boven</a>
+      <h3 id="Onderhoud" class="titelTeam">Onderhoudsteam</h3>
+      <a href="#boven" class="buttonTeam">Naar boven</a>
 
       <table class="table">
 
@@ -579,9 +343,9 @@
 
       <!-- Tabel responsive 2----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-      <h3 id="Directie1" class="titel2">Directie</h3>
+      <h3 id="Directie1" class="titelTeam2">Directie</h3>
       <a href="#boven">
-        <div class="greenup">Terug naar boven</div>
+        <div class="greenup2">Terug naar boven</div>
       </a>
 
       <table class=tabel2>
@@ -605,9 +369,9 @@
         </tr>
       </table>
 
-      <h3 id="OndersteunendTeam1" class="titel2">Ondersteunend team</h3>
+      <h3 id="OndersteunendTeam1" class="titelTeam2">Ondersteunend team</h3>
       <a href="#boven">
-        <div class="greenup">Terug naar boven</div>
+        <div class="greenup2">Terug naar boven</div>
       </a>
 
       <table class="tabel2">
@@ -625,9 +389,9 @@
         </tr>
       </table>
 
-      <h3 id="SODI1" class="titel2">Sociale dischipline-team (SODI)</h3>
+      <h3 id="SODI1" class="titelTeam2">Sociale dischipline-team (SODI)</h3>
       <a href="#boven">
-        <div class="greenup">Terug naar boven</div>
+        <div class="greenup2">Terug naar boven</div>
       </a>
 
       <table class="tabel2">
@@ -660,9 +424,9 @@
         </tr>
       </table>
 
-      <h3 id="Onderwijs1" class="titel2">Onderwijsteam</h3>
+      <h3 id="Onderwijs1" class="titelTeam2">Onderwijsteam</h3>
       <a href="#boven">
-        <div class="greenup">Terug naar boven</div>
+        <div class="greenup2">Terug naar boven</div>
       </a>
 
       <table class="tabel2">
@@ -715,9 +479,9 @@
 
       </table>
 
-      <h3 id="Personeel1" class="titel2">Personeel de VeSt</h3>
+      <h3 id="Personeel1" class="titelTeam2">Personeel de VeSt</h3>
       <a href="#boven">
-        <div class="greenup">Terug naar boven</div>
+        <div class="greenup2">Terug naar boven</div>
       </a>
 
       <table class="tabel2">
@@ -940,9 +704,9 @@
       </table>
 
 
-      <h3 id="Onderhoud1" class="titel2">Onderhoudsteam</h3>
+      <h3 id="Onderhoud1" class="titelTeam2">Onderhoudsteam</h3>
       <a href="#boven">
-        <div class="greenup">Terug naar boven</div>
+        <div class="greenup2">Terug naar boven</div>
       </a>
 
       <table class="tabel2">
@@ -990,9 +754,68 @@
 
   </main>
 
-
-
-</body>
+  <a href="#boven">
+    <div class="greenup">Terug naar boven</div>
+  </a>
+  </main>
+  <footer>
+    <section class="clearfix">
+      <div class="homepagina">
+        <ul>
+          <li><a href="index.html"><strong>Homepagina</strong></a></li>
+          <br>
+          <li><a href="#">Nieuws</a></li>
+          <li><a href="#">Type9</a></li>
+          <li><a href="#">OV3</a></li>
+          <li><a href="#">Inschrijvingsdata</a></li>
+          <br> </ul>
+      </div>
+      <div class="opleidingen">
+        <ul>
+          <li><a href="#"><strong>Opleidingen</strong></a></li>
+          <br>
+          <li><a href="hoeklasser.html">Hoeklasser</a></li>
+          <li><a href="grootkeuken.html">Keukenmedewerker</a></li>
+          <li><a href="schilderdecorateur.html">Schilderdecorateur</a></li>
+          <li><a href="tuinbouw.html">Tuinbouwarbeider</a></li>
+          <li><a href="logistiekassistent.html">Logistiek assistent</a> </li>
+        </ul>
+      </div>
+      <div class="praktisch">
+        <ul>
+          <li><a href="teampagina.html"><strong>Praktisch</strong></a></li>
+          <br>
+          <li><a href="teampagina.html">Team</a></li>
+          <li><a href="autisme_t9.html">visie</a></li>
+          <li><a href="#">Schoolbrochure</a></li>
+          <li><a href="#">Afspraken</a></li>
+          <li><a href="#">waarborg</a> </li>
+        </ul>
+      </div>
+      <div class="contact">
+        <ul>
+          <li><a href="contact.html"><strong>Contact</strong></a></li>
+          <br>
+          <li><a href="contact.html">Bereikbaarheid</a></li>
+          <li><a href="contact.html#contactform">Vragenformulier</a></li>
+          <br>
+          <br>
+          <br>
+          <br> </ul>
+      </div>
+      <div class="inschrijven">
+        <ul>
+          <li><a href="inschrijvingen.html"><strong>Inschrijven</strong></a></li>
+        </ul>
+        <nav>
+          <ul>
+            <li> <a class="Facebook" href="https://www.facebook.com/devest.vilvoorde?fref=ts">Volg ons op facebook</a> </li>
+            <li> <a class="mail" href="mailto:secretariaat.devest@sovilvoorde.be">Bezoek ons op Pinterest</a> </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  </footer </body>
 
 
 

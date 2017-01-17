@@ -1,0 +1,271 @@
+    @media screen and (min-width:1600px) {
+      body {
+        background-image: url(images/vlinderopacity%2010.png);
+        background-repeat: repeat;
+        margin: 0;
+        font-family: "Tahoma";
+        margin: 0;
+        padding: 0;
+        font-family: "Tahoma", sans-serif;
+      }
+      .main table {
+        width: 80%;
+        margin: auto;
+      }
+      .navTeam ul li {
+        list-style-type: none;
+        float: left;
+        position: relative;
+        background-color: #cee6a8;
+        margin-bottom: 1em;
+        width: 16.6%;
+      }
+      .navTeam ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #cee6a8;
+      }
+      .navTeam a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+      }
+      .navTeam a:hover {
+        background-color: #85c225;
+      }
+      .navTeam2 {
+        display: none;
+      }
+      h1 {
+        text-align: center;
+        font-size: 90px
+      }
+      img {
+        width: 100%;
+      }
+      .buttonTeam {
+        text-align: center;
+        background: #605d5c;
+        color: #85c225;
+        text-decoration: none;
+        font-family: "tahoma";
+        padding: 3px 15px 3px 15px;
+        border-radius: 15px;
+        box-shadow: 1.5px 4px 3px 0 rgba(0, 0, 0, 0.2);
+        float: right;
+        margin: 0.5em 1em 0 0;
+      }
+      .buttonTeam:hover {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+        transition-duration: 0.4s;
+      }
+      .titelTeam {
+        clear: both;
+        width: 100%;
+        background-color: #bce471;
+        text-align: center;
+        height: 1.5em;
+        margin: 0;
+        font-size: 40px
+      }
+      .titelTeam2 {
+        display: none;
+      }
+      .table {
+        clear: both;
+        margin: 0 0 1em 0;
+      }
+      .table img {
+        width: 40%;
+      }
+      .tabel2 {
+        display: none;
+      }
+      .greenup2 {
+        display: none;
+      }
+    }
+    
+    @media screen and (min-width: 750px) {
+      body {
+        background-image: url(images/vlinderopacity%2010.png);
+        background-repeat: repeat;
+        margin: 0;
+        font-family: "Tahoma";
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        font-family: "Tahoma", sans-serif;
+      }
+      .main table {
+        width: 60%;
+        margin: auto;
+      }
+      .navTeam ul li {
+        list-style-type: none;
+        float: left;
+        position: relative;
+        background-color: #cee6a8;
+        margin-bottom: 1em;
+        width: 16.6%;
+      }
+      .navTeam ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #cee6a8;
+      }
+      .navTeam a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+      }
+      .navTeam a:hover {
+        background-color: #85c225;
+      }
+      .navTeam2 {
+        display: none;
+      }
+      h1 {
+        text-align: center;
+        font-size: 40px
+      }
+      img {
+        width: 100%;
+      }
+      .buttonTeam {
+        text-align: center;
+        background: #605d5c;
+        color: #85c225;
+        text-decoration: none;
+        font-family: "tahoma";
+        padding: 3px 15px 3px 15px;
+        border-radius: 15px;
+        box-shadow: 1.5px 4px 3px 0 rgba(0, 0, 0, 0.2);
+        float: right;
+        margin: 0.5em 1em 0 0;
+      }
+      .buttonTeam:hover {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+        transition-duration: 0.4s;
+      }
+      .titelTeam {
+        clear: both;
+        width: 100%;
+        background-color: #bce471;
+        text-align: center;
+        height: 1.5em;
+        margin: 0;
+      }
+      .titelTeam2 {
+        display: none;
+      }
+      .table {
+        clear: both;
+        margin: 0 0 1em 0;
+      }
+      .table img {
+        width: 40%;
+      }
+      .tabel2 {
+        display: none;
+      }
+      .greenup2 {
+        display: none;
+      }
+    }
+    
+    @media screen and (max-width: 750px) {
+      body {
+        background-image: url(images/vlinderopacity%2010.png);
+        background-repeat: repeat;
+        margin: 0;
+        font-family: "Tahoma";
+        font-size: 16px;
+        padding: 0;
+        font-family: "Tahoma", sans-serif;
+      }
+      /*Navigatie-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+      .main table {
+        width: 80%;
+        margin: auto;
+      }
+      .navTeam2 ul li {
+        list-style-type: none;
+        float: left;
+        position: relative;
+        background-color: #cee6a8;
+        width: 100%;
+      }
+      .navTeam2 ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #cee6a8;
+      }
+      .navTeam2 a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+      }
+      .navTeam2 a:hover {
+        background-color: #85c225;
+      }
+      .navTeam {
+        display: none;
+      }
+      /*Body----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+      h1 {
+        text-align: center;
+        font-size: 30px
+      }
+      img {
+        width: 100%;
+      }
+      .buttonTeam {
+        display: none;
+      }
+      .titelTeam {
+        display: none;
+      }
+      .titelTeam2 {
+        clear: both;
+        width: 100%;
+        background-color: #bce471;
+        text-align: center;
+        height: 1.5em;
+        margin: 0 0 1em 0;
+      }
+      .greenup2 {
+        background-color: #bce471;
+        height: 1.5em;
+        text-indent: -9999px;
+      }
+      .greenup2 {
+        background-image: url(sprite/pijl.png);
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: block;
+      }
+      .table {
+        display: none;
+      }
+      .tabel2 {
+        margin: 0 0 1em 0;
+        width: 20%;
+      }
+      .tabel2 img {
+        width: 30%;
+      }
+    }
